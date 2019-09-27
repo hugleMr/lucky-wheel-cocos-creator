@@ -3,6 +3,7 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
+        
         uiHome: {
             default: null,
             type: cc.Node
