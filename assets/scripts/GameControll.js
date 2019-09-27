@@ -3,31 +3,11 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        
-        uiHome: {
+
+        wheel: {
             default: null,
-            type: cc.Node
+            type: require('wheel')
         },
-        uiResult: {
-            default: null,
-            type: cc.Node
-        },
-        txtScore:{
-            default: null,
-            type: cc.Label
-        },
-        touchAudio:{
-            default: null,
-            type: cc.AudioClip
-        },
-        successAudio:{
-            default: null,
-            type: cc.AudioClip
-        },
-        wrongAudio:{
-            default: null,
-            type: cc.AudioClip
-        }
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -38,7 +18,7 @@ cc.Class({
         console.log(search);
         window.localize.languge = search['lang'] == null? 'vi' : search['lang'];
         window.config.max_score = search['max_score'] == null? 5 : Number(search['max_score']);
-        this.score = Math.round(Math.random() * (window.config.max_score - 1)) + 1;
+        this.wheel.init(this);
     },
 
     getUrlVars() {
@@ -62,7 +42,7 @@ cc.Class({
     onBack(){
         confirmQuitGame();
     },
-    onFinish(){
-        gameComplete('action=finish&data=' + this.score);
+    onFinish(score){
+        gameComplete('action=finish&data=' + score);
     }
 });
