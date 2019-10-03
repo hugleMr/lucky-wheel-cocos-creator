@@ -6,8 +6,12 @@ cc.Class({
 
         wheel: {
             default: null,
-            type: require('wheel')
+            type: require('Wheel')
         },
+        popupQuit:{
+            default: null,
+            type: cc.Node
+        }
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -39,10 +43,11 @@ cc.Class({
         cc.audioEngine.playEffect(this.touchAudio, false);
     },
 
-    onBack(){
-        confirmQuitGame();
+    onClickClose(){
+        this.popupQuit.active = true;
     },
-    onFinish(score){
-        gameComplete('action=finish&data=' + score);
+    
+    callGameComplete(score){
+        callGameComplete(score);
     }
 });

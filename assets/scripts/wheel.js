@@ -67,9 +67,9 @@ cc.Class({
     },
 
     onLuckyWheelFinish(){
-        this.btnSpin.interactable = true;
+        // this.btnSpin.interactable = true;
         setTimeout(() => {
-            this.game.onFinish(this.data.x);
+            this.game.callGameComplete(this.data.x);
         }, 1000);
     }
 });
