@@ -3858,7 +3858,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 400,
-      "height": 400
+      "height": 420
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3938,7 +3938,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": 149,
-      "y": 149,
+      "y": 159,
       "z": 0
     },
     "_scale": {
@@ -4127,8 +4127,8 @@
     ],
     "_N$interactable": true,
     "_N$enableAutoGrayEffect": false,
-    "_N$transition": 0,
-    "transition": 0,
+    "_N$transition": 3,
+    "transition": 3,
     "_N$normalColor": {
       "__type__": "cc.Color",
       "r": 214,
@@ -4232,7 +4232,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 109.8,
+      "y": 119.8,
       "z": 0
     },
     "_scale": {
@@ -4352,7 +4352,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 0,
+      "y": 15,
       "z": 0
     },
     "_scale": {
@@ -4458,7 +4458,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": -75.184,
+      "y": -69.97999999999999,
       "z": 0
     },
     "_scale": {
@@ -4523,10 +4523,10 @@
     "_enabled": true,
     "alignMode": 1,
     "_target": null,
-    "_alignFlags": 40,
+    "_alignFlags": 41,
     "_left": 20,
     "_right": 20,
-    "_top": 0,
+    "_top": 229.98,
     "_bottom": 0,
     "_verticalCenter": 0,
     "_horizontalCenter": 0,
@@ -4574,7 +4574,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 150,
-      "height": 50
+      "height": 60
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4584,7 +4584,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": 105,
-      "y": -150,
+      "y": -155,
       "z": 0
     },
     "_scale": {
@@ -4641,7 +4641,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 150,
-      "height": 50
+      "height": 60
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -4994,7 +4994,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 150,
-      "height": 50
+      "height": 60
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -5004,7 +5004,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": -65,
-      "y": -150,
+      "y": -155,
       "z": 0
     },
     "_scale": {
@@ -5061,7 +5061,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 150,
-      "height": 50
+      "height": 60
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
