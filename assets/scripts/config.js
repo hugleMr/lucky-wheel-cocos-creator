@@ -8,7 +8,7 @@ window.localize = {
             'name':'LUCKY WHEEL',
             'guide_title':'You have 01 spinning turn',
             'popup_quit_title':'Keep patience',
-            'popup_quit_body':'{0} Biggy reward is waiting for you!',
+            'popup_quit_body':'{0} Biggy reward \nis waiting for you!',
             'continue':'Continue',
             'exit':'Exit'
         },
@@ -17,7 +17,7 @@ window.localize = {
             'name':'VÒNG XOAY MAY MẮN',
             'guide_title':'Bạn có 1 lượt để quay',
             'popup_quit_title':'Hãy kiên nhẫn',
-            'popup_quit_body':'Phần thưởng {0} Biggy đang chờ bạn đó.',
+            'popup_quit_body':'Phần thưởng {0} Biggy \nđang chờ bạn đó.',
             'continue':'Chơi tiếp',
             'exit':'Dừng lại'
         },

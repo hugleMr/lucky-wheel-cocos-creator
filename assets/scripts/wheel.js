@@ -29,11 +29,13 @@ cc.Class({
     init (game) {
         this.game = game;
     },
-    // onLoad () {},
-
-    start () {
-
+    onLoad () {
+        this.node.on(cc.Node.EventType.MOUSE_WHEEL, function (event) {
+            onLuckyWheel();
+          }, this);
     },
+
+    // start () {},
 
     // update (dt) {},
 
